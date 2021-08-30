@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - SB Admin 2 v4.1.4 (https://startbootstrap.com/theme/sb-admin-2)
+ * Start Bootstrap - UI Delfi v4.1.4 (https://startbootstrap.com/theme/sb-admin-2)
  * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin-2/blob/master/LICENSE)
  */
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #4e73df;
+  color: black;
   text-decoration: none;
   background-color: transparent;
 }
@@ -552,8 +552,6 @@ pre code {
 .container-lg,
 .container-xl {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -6490,6 +6488,10 @@ button.bg-dark:focus {
   background-color: #42444e !important;
 }
 
+.bg-delfi {
+    background-color: #004483 !important;
+}
+
 .bg-white {
   background-color: #fff !important;
 }
@@ -9812,8 +9814,8 @@ a:focus {
 .container-md,
 .container-lg,
 .container-xl {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
 }
 
 .scroll-to-top {
